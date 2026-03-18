@@ -8889,8 +8889,11 @@ svg.mask__44b0c.svg__44b0c > mask[height="32"][width="32"]:first-child rect[x="1
 .children__9293f .icon__9293f {
 	color: rgb(210,210,210) !important;
 }
+.theme-light .children__9293f .channelIcon__9293f svg path {
+	color: rgb(0,255,0);
+}
 .theme-light .children__9293f .iconWrapper__9293f svg path, .theme-light .toolbar__9293f .controlIcon_cf09d8, .theme-light .toolbar__9293f .iconWrapper__9293f .icon__9293f path, .theme-light .buttons__74017 svg path, .theme-light .button__67645 svg path, .theme-light .channelAppLauncher_e6e74f svg, .theme-light .actionButtons_e131a9 .contents__201d5 svg path {
-	color: rgb(220,220,220);
+	color: rgb(220,0,220);
 }
 .theme-light .children__9293f .icon__9293f {
 	color: rgb(220,220,220) !important;
