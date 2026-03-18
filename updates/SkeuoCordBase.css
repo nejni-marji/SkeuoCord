@@ -3022,14 +3022,14 @@ svg.mask__44b0c.svg__44b0c > mask[height="32"][width="32"]:first-child rect[x="1
 	width: 50px;
 }
 .item__58105, .wrapper_ef3116.guilds__5e434.theme-dark .item__58105 {
-	background: linear-gradient(to top, transparent 10%, rgba(234,234,234) 100%);
-	background-color: rgba(155,155,155);
+	background: linear-gradient(to top, transparent 10%, rgba(0,0,0) 100%);
+	background-color: rgba(154,154,154);
 	border: 1px solid black;
 	box-shadow: 0 0 2px 2px rgba(0,0,0,0.27), inset 0 0 0 1px white;
 	/*server unread indicator*/
 }
 .theme-light .item__58105 {
-	box-shadow: 0 0 2px 2px rgba(0,0,0,0.27), inset 0 0 0 1px white;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.27), inset 0 0 0 1px #808080;
 }
 
 .unreadPill__908e2 {
@@ -8889,7 +8889,14 @@ svg.mask__44b0c.svg__44b0c > mask[height="32"][width="32"]:first-child rect[x="1
 .children__9293f .icon__9293f {
 	color: rgb(210,210,210) !important;
 }
-.theme-light .children__9293f .iconWrapper__9293f svg path, .theme-light .toolbar__9293f .controlIcon_cf09d8, .theme-light .toolbar__9293f .iconWrapper__9293f .icon__9293f path, .theme-light .buttons__74017 svg path, .theme-light .button__67645 svg path, .theme-light .channelAppLauncher_e6e74f svg, .theme-light .actionButtons_e131a9 .contents__201d5 svg path {
+.theme-light .children__9293f .iconWrapper__9293f svg path,
+.theme-light .toolbar__9293f .controlIcon_cf09d8,
+.theme-light .toolbar__9293f .iconWrapper__9293f .icon__9293f path,
+.theme-light .buttons__74017 svg path,
+.theme-light .button__67645 svg path,
+.theme-light .channelAppLauncher_e6e74f svg,
+.theme-light .actionButtons_e131a9 .contents__201d5 svg path
+ {
 	color: rgb(220,220,220);
 }
 .theme-light .children__9293f .icon__9293f {
